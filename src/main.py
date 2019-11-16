@@ -34,6 +34,7 @@ def main():
         #cipher = cipher.transpose(Image.FLIP_TOP_BOTTOM)
         #cipher.save('cipher.bmp')
 
+        # aca tiene que ir el payload cifrado
         image = Image.open(io.BytesIO(cipherContent))
         image.save('cipher.bmp')
 

@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 # This code is released under MIT license.
 
 CONFIG = {
